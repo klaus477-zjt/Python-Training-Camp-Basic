@@ -17,6 +17,12 @@ def get_data_types():
     - 包含不同数据类型的元组: (整数, 浮点数, 字符串, 布尔值)
     """
     # 请在下方编写代码
+   
+    int_a = 42
+    float_b = 3.14
+    string_c= "Python编程"
+    bool_d= True
+    return (int_a,float_b,string_c,bool_d)
     # 1. 创建一个整数变量，值为 42
     # 2. 创建一个浮点数变量，值为 3.14
     # 3. 创建一个字符串变量，值为 "Python编程"
